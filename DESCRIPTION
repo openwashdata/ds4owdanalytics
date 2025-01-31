@@ -1,0 +1,20 @@
+Package: ds4owdanalytics
+Type: Package
+Title: DS4OWD Analytics
+Version: 0.1.0
+Authors@R: c(
+    person("Yash", "Dubey", , "ydubey@ethz.ch", role = c("aut", "cre"),
+           comment = c(ORCID = "0009-0001-2849-970X"))
+  )
+Description: Data collected from the Data Science for Open WASH Data (DS4OWD) course and the associated website and data publishing endeavour.
+License: CC BY 4.0
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 3.5)
+RoxygenNote: 7.3.2
+Language: en-GB
+Config/Needs/website: rmarkdown
+Date: 2025-01-31
+URL: https://github.com/openwashdata/ds4owdanalytics
+BugReports: https://github.com/openwashdata/ds4owdanalytics/issues
