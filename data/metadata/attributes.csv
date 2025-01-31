@@ -1,0 +1,80 @@
+directory,file_name,variable_name,variable_type,description
+data/,course_participation.rda,duration_minutes,numeric,Minutes spent in the session
+data/,course_participation.rda,guest,character,Whether the user is a guest or not. The course instructor and their notetaker is not a guest
+data/,course_participation.rda,date,character,Date of the session
+data/,course_participation.rda,session,numeric,Session number
+data/,course_participation.rda,anonymized_name,character,Anonymized hash of the name as an identifier
+data/,ds4owd_browser.rda,browser,character,Browser used to accesss the DS4OWD website
+data/,ds4owd_browser.rda,pageviews,numeric,Number of pages viewed
+data/,ds4owd_browser.rda,visitors,numeric,Total number of unique visitors
+data/,ds4owd_browser.rda,visit_duration,numeric,Duration of visit (seconds)
+data/,ds4owd_browser.rda,visits,numeric,Number of non-unique visits to the website
+data/,ds4owd_browser.rda,bounce_rate,numeric,"Percentage of users ""bouncing"" off website. A bounce is when a visitor spends less than 30 seconds on the website"
+data/,ds4owd_country.rda,country,character,Country of visit to the website
+data/,ds4owd_country.rda,pageviews,numeric,Number of pages viewed
+data/,ds4owd_country.rda,visit_duration,numeric,Duration of visit (seconds)
+data/,ds4owd_country.rda,visitors,numeric,Total number of unique visitors
+data/,ds4owd_country.rda,visits,numeric,Number of non-unique visits to the website
+data/,ds4owd_country.rda,bounce_rate,numeric,"Percentage of users ""bouncing"" off website. A bounce is when a visitor spends less than 30 seconds on the website"
+data/,ds4owd_source.rda,source,character,"Source of visit (Search engine, organic etc.)"
+data/,ds4owd_source.rda,pageviews,numeric,Number of pages viewed
+data/,ds4owd_source.rda,visit_duration,numeric,Duration of visit (seconds)
+data/,ds4owd_source.rda,visitors,numeric,Total number of unique visitors
+data/,ds4owd_source.rda,visits,numeric,Number of non-unique visits to the website
+data/,ds4owd_source.rda,bounce_rate,numeric,"Percentage of users ""bouncing"" off website. A bounce is when a visitor spends less than 30 seconds on the website"
+data/,ds4owd_timeseries.rda,date,Date,Date of data collection
+data/,ds4owd_timeseries.rda,pageviews,numeric,Number of pages viewed
+data/,ds4owd_timeseries.rda,visitors,numeric,Total number of unique visitors
+data/,ds4owd_timeseries.rda,visit_duration,numeric,Duration of visit (seconds)
+data/,ds4owd_timeseries.rda,visits,numeric,Number of non-unique visits to the website
+data/,ds4owd_timeseries.rda,bounce_rate,numeric,"Percentage of users ""bouncing"" off website. A bounce is when a visitor spends less than 30 seconds on the website"
+data/,locations.rda,iso_country,character,ISO Name for country of course participant
+data/,locations.rda,country,character,Name of country
+data/,locations.rda,city,character,Name of city
+data/,postsurvey.rda,course_completion,numeric,Whether the course was completed by the respondent or not
+data/,postsurvey.rda,rating_overall,numeric,Overall course rating
+data/,postsurvey.rda,expectations,character,Expectations from the course
+data/,postsurvey.rda,learning_objectives,character,Whether learning objectives were met
+data/,postsurvey.rda,rating_structure,numeric,Rating for the structure of the course
+data/,postsurvey.rda,rating_ins_knowledge,numeric,Rating for the instructor's knowledge of the course material
+data/,postsurvey.rda,rating_ins_clarity,numeric,Rating for the instructor's clarity
+data/,postsurvey.rda,rating_ins_comp,numeric,Rating for the instructor's competency
+data/,postsurvey.rda,rating_ins_app,numeric,Rating for approachability of the instructor
+data/,postsurvey.rda,feedback,character,Feedback for the course
+data/,postsurvey.rda,rating_self_r_comp,numeric,Self rating for R competency
+data/,postsurvey.rda,rating_self_vc_comp,numeric,Self rating for version control competency
+data/,postsurvey.rda,conf_skill_app,numeric,Confidence in applying skills learned during the course
+data/,postsurvey.rda,most_liked,character,Most liked aspects of the course
+data/,postsurvey.rda,least_liked,character,Least liked aspects of the course
+data/,postsurvey.rda,suggestion,character,Suggestions for the course
+data/,postsurvey.rda,other_comments,character,Any other comments
+data/,postsurvey.rda,reason_non_participation,logical,If course was not completed
+data/,presurvey.rda,id,character,ID of survey response
+data/,presurvey.rda,google_timestamp,"c(""POSIXct"", ""POSIXt"")",NA
+data/,presurvey.rda,zoom_timestamp,"c(""POSIXct"", ""POSIXt"")",NA
+data/,presurvey.rda,prog_exp,character,Previous programming experience
+data/,presurvey.rda,prog_exp_r,character,Previous programming experience in R
+data/,presurvey.rda,prog_ease_max_list,character,Ease of programming
+data/,presurvey.rda,data_format,character,Format of data
+data/,presurvey.rda,current_use_llm,character,Current level of LLM usage
+data/,presurvey.rda,work_organisation,character,Organisation type where participant works
+data/,presurvey.rda,barrier_time_availability,character,If time availability is a barrier to learning
+data/,presurvey.rda,barrier_supervisor_interests,character,If supervisor's interest is a barrier to learning
+data/,presurvey.rda,barrier_internet_connection,character,If internet connection is a barrier to learning
+data/,presurvey.rda,barrier_electricity,character,If electricity availability is a barrier to learning
+data/,presurvey.rda,barrier_computer,character,If availability of a compiuter is a barrier to learning
+data/,presurvey.rda,interest_share_dataset,character,If interested in sharing a dataset
+data/,publishing_metadata.rda,id,numeric,Identifier of dataset
+data/,publishing_metadata.rda,pkg_name,character,Name of the package
+data/,publishing_metadata.rda,maintainer,character,Github ID of maintainer
+data/,publishing_metadata.rda,source,character,Source of data
+data/,publishing_metadata.rda,difficulty,character,Difficult of cleaning data
+data/,publishing_metadata.rda,status,character,Current status
+data/,publishing_metadata.rda,description,character,Description of data package
+data/,publishing_metadata.rda,location,character,Location of data in the package
+data/,publishing_metadata.rda,date_published,"c(""POSIXct"", ""POSIXt"")",Date of publication
+data/,publishing_metadata.rda,link_github,character,Link to github repo
+data/,publishing_metadata.rda,link_pkg_website,character,Link to package website
+data/,publishing_metadata.rda,doi,character,Zenodo DOI of package
+data/,publishing_metadata.rda,temporal_coverage,logical,Temporal coverage of data
+data/,publishing_metadata.rda,keywords,character,Keywords to identify data

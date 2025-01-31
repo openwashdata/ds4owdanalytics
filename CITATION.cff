@@ -1,0 +1,28 @@
+# --------------------------------------------
+# CITATION file created with {cffr} R package
+# See also: https://docs.ropensci.org/cffr/
+# --------------------------------------------
+ 
+cff-version: 1.2.0
+message: 'To cite package "ds4owdanalytics" in publications use:'
+type: software
+license: CC-BY-4.0
+title: 'ds4owdanalytics: DS4OWD Analytics'
+version: 0.1.0
+doi: 10.5281/zenodo.14778963
+abstract: Data collected from the Data Science for Open WASH Data (DS4OWD) course
+  and the associated website and data publishing endeavour.
+authors:
+- family-names: Dubey
+  given-names: Yash
+  email: ydubey@ethz.ch
+  orcid: https://orcid.org/0009-0001-2849-970X
+repository-code: https://github.com/openwashdata/ds4owdanalytics
+url: https://github.com/openwashdata/ds4owdanalytics
+date-released: '2025-01-31'
+contact:
+- family-names: Dubey
+  given-names: Yash
+  email: ydubey@ethz.ch
+  orcid: https://orcid.org/0009-0001-2849-970X
+

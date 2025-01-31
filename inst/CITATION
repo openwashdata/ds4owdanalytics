@@ -1,0 +1,13 @@
+
+bibentry(bibtype = "Misc",
+         key = "dubey:2025",
+         title = "ds4owdanalytics: DS4OWD Analytics",
+         author = person(given = "Yash",
+                         family = "Dubey",
+                         email = "ydubey@ethz.ch",
+                         comment = c(ORCID = "0009-0001-2849-970X")),
+         year = "2025",
+         doi = "10.5281/zenodo.14778963",
+         url = "https://github.com/openwashdata/ds4owdanalytics",
+         abstract = "Data collected from the Data Science for Open WASH Data (DS4OWD) course and the associated website and data publishing endeavour.",
+         version = "0.1.0")
