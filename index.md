@@ -1,5 +1,7 @@
 # ds4owdanalytics
 
+A data package published by [openwashdata](https://openwashdata.org).
+
 The goal of ds4owdanalytics is to make dark data from the DS4OWD course
 publicly available
 
