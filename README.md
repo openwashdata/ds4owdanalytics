@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# ds4owdanalytics
+# ds4owdanalytics <a href="https://openwashdata.org"><img src="man/figures/logo.png" align="right" width="120" alt="openwashdata" /></a>
 
 <!-- badges: start -->
 
@@ -11,8 +11,6 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14778963.svg)](https://zenodo.org/doi/10.5281/zenodo.14778963)
 
 <!-- badges: end -->
-
-A data package published by [openwashdata](https://openwashdata.org).
 
 The goal of ds4owdanalytics is to make dark data from the DS4OWD course
 publicly available
@@ -256,6 +254,8 @@ Data are available as
 [CC-BY](https://github.com/openwashdata/%7B%7B%7Bpackagename%7D%7D%7D/blob/main/LICENSE.md).
 
 ## Citation
+
+Published by openwashdata, <https://openwashdata.org>.
 
 Please cite this package using:
 

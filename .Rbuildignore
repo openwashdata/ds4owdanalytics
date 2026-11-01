@@ -8,3 +8,5 @@
 ^docs$
 ^pkgdown$
 ^data/metadata$
+^_brand\.yml$
+^logos$
